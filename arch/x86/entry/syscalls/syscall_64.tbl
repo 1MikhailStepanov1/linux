@@ -400,3 +400,6 @@
 545	x32	execveat		__x32_compat_sys_execveat/ptregs
 546	x32	preadv2			__x32_compat_sys_preadv64v2
 547	x32	pwritev2		__x32_compat_sys_pwritev64v2
+548	64	page_read		sys_page_read
+549	64	dentry_read		sys_dentry_read
+
